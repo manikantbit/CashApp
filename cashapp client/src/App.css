@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.dropdown-menu{
+  position: absolute; 
+  transform: translate3d(0px, 42px, 0px); 
+  top: 0px; 
+  left: 0px;
+}
+
+.navbar-brand{
+  max-width: 170px;
+}
+
+.bg-blue{
+  background-color: rgba(40, 72, 216, 0.623)
+}
+
+.ml-15{
+  margin-left: 750px;
+}
+
+.ml-20{
+  margin-left: 1000px;
+}
+
+.ml-10{
+  margin-left: 150px;
+}
+
+.mr-10{
+  margin-right: 200px;
+}
+
+.m-10{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.mt-10{
+  margin-top: 80px;
+}
+
+#intro {
+  background: url('https://unsplash.com/photos/iOykDIkZLQw') no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+
+}
+
+.bg-gray{
+  background-color: rgb(34, 34, 34);
+}

@@ -1,0 +1,28 @@
+
+> login@0.0.0 start /home/prince/Project281/281_sharkhead_cashapp/cashapp backend
+> node ./bin/www
+
+Wed, 09 May 2018 05:37:38 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:49:9
+Connected to Mongodb
+Connected to Mongodb
+Connected to Mongodb
+Connected to Mongodb
+Connected to Mongodb
+Error: Failed to lookup view "error" in views directory "/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/views"
+    at Function.render (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/response.js:971:7)
+    at /home/prince/Project281/281_sharkhead_cashapp/cashapp backend/app.js:115:7
+    at Layer.handle_error (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/index.js:315:13)
+    at /home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/index.js:275:10)
+    at /home/prince/Project281/281_sharkhead_cashapp/cashapp backend/app.js:103:3
+    at Layer.handle [as handle_request] (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/index.js:317:13)
+    at /home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/index.js:335:12)
+    at Immediate.next (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/index.js:275:10)
+    at Immediate._onImmediate (/home/prince/Project281/281_sharkhead_cashapp/cashapp backend/node_modules/express/lib/router/index.js:635:15)
+    at runCallback (timers.js:796:20)
+[0mGET /signup [33m404 [0m165.098 ms - 2418[0m

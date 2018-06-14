@@ -1,0 +1,40 @@
+{
+  "name": "login",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "axios": "^0.18.0",
+    "bcrypt": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "client-sessions": "^0.8.0",
+    "connect-mongo": "^2.0.1",
+    "connect-mongostore": "^0.1.4",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^2.6.9",
+    "ejs": "^2.5.9",
+    "express": "^4.15.5",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.1.2",
+    "kafka-node": "^2.6.1",
+    "mocha": "^5.1.1",
+    "mongo-connect": "0.0.6",
+    "mongodb": "^3.0.7",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.17.3",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "redis": "^2.8.0",
+    "serve-favicon": "^2.4.5"
+  }
+}

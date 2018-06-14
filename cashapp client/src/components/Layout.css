@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+  }
+.UL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.li {
+    float: right;
+}
+
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: #111;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url("/Users/akshatshah/Desktop/Login app in use/Login ReactJS/reactlogin/src/components/1229974_10153189601015531_374191803_n.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+.wrap {
+    width: 100%;
+}
+
+.floatleft {
+    float:left; 
+    width: 500px;
+    background-color:white;
+    height: 300px;
+}
+
+.floatright {
+float: right;
+    background-color: white;
+    height: 400px;
+    width: 20%;
+}
